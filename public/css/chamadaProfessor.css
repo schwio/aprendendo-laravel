@@ -1,0 +1,68 @@
+h2,p{
+    color: white;
+    margin-top: 50px;
+}
+#nome-aluno{
+    padding: 25px 25px 0px 25px;
+    font-size: 25px;
+}
+#cabeca-chamada{
+    background: rgb(3, 66, 3);
+    padding: 100px 50px;
+}
+#divisao-aluno{
+ 
+    justify-content: center;
+    
+    margin-top: 25px;
+    padding: 0px;  
+}
+#aluno{
+    box-shadow:0 0 5px 0px black;
+   margin: 15px;
+    display: flex;
+
+    background: rgba(201, 199, 199, 0.747);
+}
+#btns{
+    padding: 20px;
+    margin-left: auto;
+}
+
+#aluno a img{
+
+ width: 80px;
+ height: 80px;
+}
+#btns button{
+    color: white;
+    background: rgb(1, 49, 1);
+    font-size: 25px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 800px) and (min-width:100px) {
+  
+  
+       #nome-aluno{
+        padding: 5px 5px 0px 5px;
+        font-size: 16px;
+    }
+    
+       #aluno{
+        justify-content: center;
+     
+        box-shadow: none;
+      background: none;
+        display:inline;
+     
+    }
+  
+    #btns{
+     
+        padding: 25px;
+       
+    }
+ }

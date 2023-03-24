@@ -1,0 +1,40 @@
+
+body{
+    background: url("../assets/img/bg-masthead.jpg") ;
+    background-size:cover;
+}
+#main-aulas{
+  padding-top:25px;
+    justify-content:center;
+       display: flex;
+    flex-direction:roW;
+}
+.card{
+ width: 700px;
+    height: 200px;
+}
+#btnVoltar{
+   margin:80px 50px;
+}
+@media screen and (max-width: 800px) and (min-width:100px) {
+  
+   .card{  
+       
+        max-width: 400px;
+       
+        width: 400px;
+      
+    }
+    
+  
+}
+
+@media screen and (max-width: 400px) and (min-width:100px) {
+   .card{  
+       
+        max-width: 400px;
+       
+        width: 400px;
+      
+    }
+}

@@ -1,0 +1,11 @@
+
+body{
+background-image: url("../assets/img/fundo.jpg");
+background:cover;
+}
+
+.d-grid{
+  margin:50px;
+     justify-content: center;
+  display:flex;
+}

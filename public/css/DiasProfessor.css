@@ -1,0 +1,128 @@
+
+h1{
+    color:rgb(0, 0, 0)
+}
+#btn1{
+  padding:15px;
+  }
+#background{
+    padding-top:80px;
+    background: #ffffff;
+    height: 100px;
+   
+}
+#mes-aula{
+    font-size: 28px; 
+    font-family: 'Gill Sans';
+    padding: 25px 50px;
+    font-weight: bold;
+}
+#cabeca-chamada p{
+    padding: 25px 50px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
+.meses p{
+    color: white;
+}
+
+#tela-chamada p{
+color: #000;
+}
+#cabeca-chamada h2{
+    margin: 15px 40px;
+}
+#cabeca-chamada {
+    
+    padding: 50px 0 50px;
+    flex-wrap: wrap;
+    display: flex;
+    margin:0px 50px;
+}
+
+#cabeca-chamada p{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+
+.meses ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#SemanaDia{
+    padding: 15px;
+}
+#Numberdia{
+    
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 38px;
+}
+.meses {
+
+    padding-top: 20px;
+    background: #4db89d;
+
+}
+
+.meses ul li{
+  
+    border-radius: 0.2rem;
+    display: flex;
+    background: white;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 2px black;
+}
+
+#nome-aluno{
+    font-size: 25px; 
+       padding: 10px 25px;
+}
+
+
+#btns{
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width: 800px) and (min-width:100px) {
+   
+    #cabeca-chamada h2{
+        margin: 15px 15px;
+        font-size: 18px;
+    }  
+   
+     #cabeca-chamada{
+      
+        display: inline;
+    }
+      #cabeca-chamada p{
+        padding: 5px 15px 25px;
+    }
+    .meses ul {
+        padding: 15px;
+    }
+    .meses ul li{
+        width: 140px;
+        height: 70px;
+        
+    }
+        #Numberdia{
+        margin: 5px;
+        font-size: 28px;}
+
+        #pessoas-chamada ul{
+            list-style: none;
+            padding-right: 0px;
+        }
+}
